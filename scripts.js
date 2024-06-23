@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderer.render(scene, camera);
     }
 
-    camera.position.z = 30;
+    camera.position.z = 0;
     animate();
 
     window.addEventListener('resize', () => {
