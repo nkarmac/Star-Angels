@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Angels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Star Angels">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#featured-spaceships">Spaceships</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Explore the Universe</h1>
+            <p>Find the perfect spaceship to embark on your intergalactic adventures.</p>
+            <a href="#featured-spaceships" class="cta-button">Browse Ships</a>
+        </div>
+    </section>
+
+    <section id="featured-spaceships">
+        <h2>Featured Ships</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <a href="modelA.html"><img src="images/spaceship1.jpg" alt="Model A"></a>
+                <div class="carousel-item-info fade-in-initial">
+                    <h3>Model A</h3>
+                    <p>Fast and reliable for long journeys.</p>
+                    <a href="modelA.html" class="view-details">View Details</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="modelB.html"><img src="images/spaceship2.png" alt="Model B"></a>
+                <div class="carousel-item-info fade-in-initial">
+                    <h3>Model B</h3>
+                    <p>Perfect for interstellar cargo transport.</p>
+                    <a href="modelB.html" class="view-details">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="spaceship-categories">
+        <h2>Spaceship Categories</h2>
+        <div class="categories">   
+            <div class="category fade-in-initial">
+                <img src="images/passenger.png" alt="Passenger Spaceship">
+                <h3>Passenger</h3>
+                <p>Comfortable travel for you and your crew.</p>
+                <!-- <a href="#" class="view-more">View More</a> -->
+            </div>
+            <div class="category fade-in-initial">
+                <img src="images/cargo.png" alt="Cargo Spaceship">
+                <h3>Cargo</h3>
+                <p>Ideal for transporting goods across galaxies.</p>
+                <!-- <a href="#" class="view-more">View More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our mission and the team behind Star Angels.</p>
+        <div class="team fade-in-initial">
+            <div class="team-member">
+                <img src="images/janesmith.jpg" alt="Team Member 1">
+                <h3>Jane Smith</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="images/johndoe.jpg" alt="Team Member 2">
+                <h3>John Doe</h3>
+                <p>Lead Engineer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="masonry-grid">
+            <div class="masonry-item fade-in-initial"><img src="images/gallery1.jpg" alt="Gallery Image 1"></div>
+            <div class="masonry-item fade-in-initial"><img src="images/gallery2.jpg" alt="Gallery Image 2"></div>
+        </div>
+        <div class="gallery fade-in-initial" >
+            <a href="gallery.html"><button class="gallery-button">See More</button></a>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials-carousel">
+            <div class="testimonial fade-in-initial">
+                <p>"Amazing experience! My spaceship was everything I dreamed of."</p>
+                <div class="customer">
+                    <img src="images/customer1.jpg" alt="Customer 1">
+                    <h3>Steve Gibson</h3>
+                </div>
+            </div>
+            <div class="testimonial fade-in-initial">
+                <p>"Excellent service, incredible ships, always reliable."</p>
+                <div class="customer">
+                    <img src="images/customer2.jpg" alt="Customer 2">
+                    <h3>Amy Thompson</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-media">
+            <img src="images/facebook-icon.png" alt="Facebook">
+            <img src="images/twitter-icon.png" alt="Twitter">
+            <img src="images/instagram-icon.png" alt="Instagram">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024</p>
+        <div class="quick-links">
+            <a href="#hero">Home</a>
+            <a href="#featured-spaceships">Spaceships</a>
+            <a href="#about">About Us</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="newsletter">
+            <button type="submit">Subscribe</button>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
